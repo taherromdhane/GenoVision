@@ -1,0 +1,59 @@
+html {
+    scroll-behavior: smooth;
+}
+  
+.brands {
+    display: flex;
+}
+
+.brand-img {
+    max-height: 3.5rem;
+}
+
+#project-logo {
+    padding: 0.5rem;
+}
+
+#project-title {
+    font-weight: bold;
+}
+
+.btn-neutral {
+    background-color: #1a517e;
+    border-color: #1a517e;
+    color: #ffffff;
+}
+
+.btn-neutral:hover, .btn-neutral:focus, .btn-neutral:active, .btn-neutral.active, .btn-neutral:active:focus, .btn-neutral:active:hover, .btn-neutral.active:focus, .btn-neutral:not(:disabled):not(.disabled):active:focus, .btn-neutral:not(:disabled):not(.disabled):active, .btn-neutral:not(:disabled):not(.disabled).active, .btn-neutral:not(:disabled):not(.disabled).active:focus, .show>.btn-neutral.dropdown-toggle {
+    background-color: #66615B;
+    border-color: #66615B;
+    color: #ffffff !important;
+}
+
+.btn-primary {
+    background-color: #1e2c4b;
+    border-color: #1e2c4b;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary:active:focus, .btn-primary:active:hover, .btn-primary.active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled).active:focus, .show>.btn-primary.dropdown-toggle {
+    background-color: #020b1e;
+    border-color: #020b1e;
+}
+
+.navbar {
+    background: #020b1e;
+}
+
+.info {
+    margin: 2em 0em;
+    transition: all 0.4s ease-in-out;
+}
+
+.info:hover {
+    transform: translateY(-0.5rem);
+}
+
+.section-dark {
+    background-color: #020b1e;
+}
+
