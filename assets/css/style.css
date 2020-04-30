@@ -7,11 +7,11 @@ html {
 }
 
 .brand-img {
-    max-height: 3.5rem;
+    max-height: 3.5em;
 }
 
 #project-logo {
-    padding: 0.5rem;
+    padding: 0.5em;
 }
 
 #project-title {
@@ -50,7 +50,30 @@ html {
 }
 
 .info:hover {
-    transform: translateY(-0.5rem);
+    transform: translateY(-0.5em);
+}
+
+#co-lab-snippet {
+    width: fit-content;
+}
+
+#co-lab-card {
+    max-width: 800px;
+    margin: 2em;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+    filter: grayscale(1);
+    transition: all ease-in 0.3s;
+}
+
+#co-lab-card {
+
+}
+
+#co-lab-card:hover {
+    filter: grayscale(0);
+    /* filter: blur(5px); */
+    transform: scale(1.02);
 }
 
 .section-dark {
